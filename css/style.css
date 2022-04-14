@@ -1,0 +1,58 @@
+.test-ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.test-li {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  outline: 2px solid teal;
+
+  flex-basis: calc(100% / 3 - 40px);
+}
+.test-box1 {
+  width: 300px;
+  height: 600px;
+  border: 2px dashed black;
+  /* background-image: url(https://images.pexels.com/photos/9507678/pexels-photo-9507678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  /* background-size: 100% 100%; */
+  /* border-radius: 50%; */
+}
+
+/* .test-box2 {
+  /* height: 1000px;
+  width: 400px;
+
+  background-image: url("https://cdn-icons-png.flaticon.com/512/361/361678.png"),
+    url("https://cdn-icons-png.flaticon.com/512/4206/4206277.png"),
+    url("https://cdn-icons-png.flaticon.com/512/814/814513.png"),
+    url("https://tlgrm.ru/_/stickers/e3a/876/e3a87689-707f-3495-b94a-8ee96e2538e5/39.webp"),
+    url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+
+  background-size: 80px, 100px, 150px, 130px, cover;
+  background-repeat: no-repeat;
+  background-position: top 120px right 130px, top 270px left 130px, center,
+    100px 60px, center;
+} */
+
+.test-box3 {
+  height: 400px;
+  width: 300px;
+  border: 2px dashed black;
+}
+
+.test-img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: fill;
+}
+
+.bg-pic {
+  background-image: url(https://images.pexels.com/photos/9507678/pexels-photo-9507678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+}
